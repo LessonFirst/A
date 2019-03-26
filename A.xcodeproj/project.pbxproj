@@ -17,7 +17,7 @@
 		CD37AA04224884D10011574A /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AA03224884D10011574A /* ATests.m */; };
 		CD37AA0F224884D10011574A /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AA0E224884D10011574A /* AUITests.m */; };
 		CD37AA1E224885BB0011574A /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AA1C224885BB0011574A /* AViewController.m */; };
-		CD37AA642248A5240011574A /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AA632248A5240011574A /* Target_A.m */; };
+		CD37AAF92249D39E0011574A /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AAF82249D39E0011574A /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		CD37AA10224884D10011574A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD37AA1C224885BB0011574A /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AViewController.m; path = A/AViewController.m; sourceTree = "<group>"; };
 		CD37AA1D224885BB0011574A /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AViewController.h; path = A/AViewController.h; sourceTree = "<group>"; };
-		CD37AA622248A5240011574A /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		CD37AA632248A5240011574A /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		CD37AAF72249D39E0011574A /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_A.h; path = A/Target_A.h; sourceTree = "<group>"; };
+		CD37AAF82249D39E0011574A /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_A.m; path = A/Target_A.m; sourceTree = "<group>"; };
 		EA214309CF079116EA57E61A /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
 		F094D43D800ED98DE602E2B5 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,6 @@
 				EA214309CF079116EA57E61A /* Pods-A.debug.xcconfig */,
 				F094D43D800ED98DE602E2B5 /* Pods-A.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,7 +131,8 @@
 		CD37A9E9224884D00011574A /* A */ = {
 			isa = PBXGroup;
 			children = (
-				CD37AA612248A4D30011574A /* Targets */,
+				CD37AAF72249D39E0011574A /* Target_A.h */,
+				CD37AAF82249D39E0011574A /* Target_A.m */,
 				CD37AA1D224885BB0011574A /* AViewController.h */,
 				CD37AA1C224885BB0011574A /* AViewController.m */,
 				CD37A9EA224884D00011574A /* AppDelegate.h */,
@@ -164,15 +164,6 @@
 				CD37AA10224884D10011574A /* Info.plist */,
 			);
 			path = AUITests;
-			sourceTree = "<group>";
-		};
-		CD37AA612248A4D30011574A /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				CD37AA622248A5240011574A /* Target_A.h */,
-				CD37AA632248A5240011574A /* Target_A.m */,
-			);
-			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,7 +351,7 @@
 			files = (
 				CD37AA1E224885BB0011574A /* AViewController.m in Sources */,
 				CD37A9EF224884D00011574A /* ViewController.m in Sources */,
-				CD37AA642248A5240011574A /* Target_A.m in Sources */,
+				CD37AAF92249D39E0011574A /* Target_A.m in Sources */,
 				CD37A9FA224884D10011574A /* main.m in Sources */,
 				CD37A9EC224884D00011574A /* AppDelegate.m in Sources */,
 			);
